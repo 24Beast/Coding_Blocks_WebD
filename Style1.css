@@ -1,0 +1,31 @@
+*{
+    color: royalblue;
+    background-color: beige;
+}
+
+#p1{
+    font-size: 2vh;
+    font-style: oblique;
+}
+
+.bodytext{
+    font-size: 2vh;
+    font-family:serif;
+    margin-left: 20px;
+}
+
+.expandedList{
+    font-style: oblique;
+    display: none;
+}
+
+.expandingList:hover+.expandedList{
+    display: block;
+}
+
+.Final{
+    font-style: italic;
+    font-size: 2.5vh;
+    text-align: center;
+    font-weight: bold;
+}
