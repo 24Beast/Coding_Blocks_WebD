@@ -1,0 +1,30 @@
+*{
+    background-color: beige;
+}
+
+.Heading{
+    text-align: center;
+}
+
+.body_text{
+    display: :inline;
+    text-align: center;
+    text-emphasis-color: brown;
+    margin-top: -400px;
+}
+
+.expandedList{
+    list-style: none;
+    font-style: oblique;
+    display: none;
+}
+
+.expandingList:hover+.expandedList{
+    display: block;
+}
+
+#lists{
+    display: inline;
+    margin-right: 500px;
+    margin-bottom: 400px;
+}
